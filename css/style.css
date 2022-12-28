@@ -9,7 +9,19 @@ html,body
     background-color: rgb(255, 140, 0);
 }
 
-*/
+
+.Content{
+    margin-bottom: 25%;
+}
+*/ 
+
+.box{
+  padding-top: 10%;
+}
+
+.paragraph{
+    line-height:  1.2;
+}
 
 .headerImg{
     width: 100%;
@@ -21,13 +33,12 @@ html,body
   display: none;
 }
 
-.Content{
-    margin-bottom: 50%;
-}
+
 
 .box{
     background-color: rgb(255, 169, 154);
     height: 400px;
+    margin-top: 10%;
 }
 
 
@@ -45,3 +56,77 @@ html,body
     height: 250px;
  object-fit: cover; 
 }
+ 
+    
+
+
+  /*footerStart*/
+.footer{
+   margin-top: 32px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+  
+  }
+  
+  .footerIconList{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+  }
+  
+  .footerIcon{
+    margin: 0 10px 0 10px;
+    transition: top 0.2s;
+  }
+  
+  .footerIcon:hover{
+    cursor: pointer;
+    top:-4px;
+    position: relative;
+  }
+
+
+  .galleryCon{
+    background-color: rgb(255, 239, 220);
+  }
+
+ 
+/*goTop*/
+.goTopBtn {
+    display: none;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right:0;
+    height: 48px;
+    width: 48px;
+    margin-top: 80vh;
+    background-color: rgb(224, 184, 134);
+    opacity: 0.7;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    font-family:Arial;
+ 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+    }
+  
+  .goTopBtn:hover{
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  .smallTitle{
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(105, 66, 49);
+  }
+
+  .bigContainer{
+    background-color: rgb(255, 239, 220);
+
+  } 
