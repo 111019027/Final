@@ -22,6 +22,7 @@ html,body{
     width: 100%;
     height: 300px;
  object-fit: cover; 
+ 
 }
 
 ::-webkit-scrollbar {
@@ -141,10 +142,4 @@ html,body{
   left: 150px;
   padding: 15px;
 }
-
- .homeName{
-  position: absolute;
-  left: 17%;
-  font-weight: 500;
-  font-size: large;
- }
+ 
