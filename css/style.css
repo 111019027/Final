@@ -133,3 +133,18 @@ html,body{
   0% { opacity: 0 }
   100% { opacity: 1 }
 }
+
+.navicon{
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 150px;
+  padding: 15px;
+}
+
+ .homeName{
+  position: absolute;
+  left: 17%;
+  font-weight: 500;
+  font-size: large;
+ }
